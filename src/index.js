@@ -3,7 +3,7 @@ require('dotenv').config()
 const winston = require('winston')
 const Express = require('express')
 const App = Express()
-const { MongoClient } = require('mongodb')
+
 const Mongoose = require('mongoose')
 const { loggers } = require('winston')
 
